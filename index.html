@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nosifer&family=Orbitron&family=Rubik:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+      <lord-icon
+        src="https://cdn.lordicon.com/qzwudxpy.json"
+        trigger="loop"
+        delay="800"
+        colors="outline:#121331,primary:#ebe6ef,secondary:#ffc738,tertiary:#f24c00"
+        style="width: 250px; height: 250px; margin: auto"
+      >
+      </lord-icon>
+      <input type="text" id="input-field" placeholder="Bread" required />
+      <button id="add-button">Add to cart</button>
+      <ul id="shopping-list"></ul>
+    </div>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
